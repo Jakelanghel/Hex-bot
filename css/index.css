@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #E6E2DD;
+    color: #373A36;
+    font-family: 'Rubik', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+/* ======================== */
+/* HIDE ARROW KEYS ======== */
+/* ======================== */
+
+/* CHROME */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* FIRE FOX */
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+/* ======================== */
+/* TITLE ================== */
+/* ======================== */
+
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 2px;;
+    padding: 11e 0
+}
+
+/* ======================== */
+/* INPUT ================== */
+/* ======================== */
+
+.user-input {
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    background: #D48166;
+    border-radius: 10px;;
+}
+
+.input-label {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0;
+    margin-top: 5px;
+    color: #E6E2DD;
+}
+
+.input {
+    width: 25%;
+    background: #E6E2DD;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .5px;
+    color: #373A36;
+    padding: 5px 1px 5px 3px;
+    margin-left: .5em;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* ======================== */
+/* COLORS ================= */
+/* ======================== */
+
+.colors-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.color {
+    width: 150px;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.hex {
+    text-align: center;
+}

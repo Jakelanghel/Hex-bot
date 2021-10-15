@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="#"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Hex bot</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">hex color generator</h1>
+    </header>
+    <main>
+        <div class="user-input">
+            <label class="input-label"for="color-count">Number of colors to generate: </label>
+            <input class="input" id="color-count" type="number" min="0" step="1" oninput="validity.valid||(value='');">
+        </div>
+        
+        <div class="colors-container">
+            <div class="colors" id="colors-id"></div>
+        </div>
+    </main>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
